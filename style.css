@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*todo o site- Ta errado isso aqui mas ainda não descobri como corrigir*/
+*{
+    width: auto;
+    height: auto;
+    margin: 0%;
+    background-color: #EFEFEF;/**/
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+/*css menu pai */
+.header {
+    width: 100%;
+    background-color: #fff; 
+    margin:0%;
+
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+}
+
+/*css imagem do menu*/
+.logo img{
+    width: 20%;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    margin: 0%
+}
+
+.menu ul {
+    display: inline;
+}
+
+/*css lista menu*/
+.menu li{
+    display: inline;
+}
+
+.menu a {
+    /*background-color: red;/**/
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    color:#CA1F25;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu li :hover{
+    background-color: red;
+    color: white;
+}
+
+/*css pai banner carreta 1*/
+.banner{
+    display: block;
+    height:70%;
+    margin-top:2.5%;
+}
+
+/*css imagem banner carreta 1*/
+.carrta-1 img{
+    width: 100%;
+    height: 30%;
+}
+
+/*css descrição do texto carreta 1*/
+.descricao h1{
+    margin-top: -7%;
+    text-align: center;
+    color:white;
+    font-size: 47px;
+}
+
+/*css pai texto sobre a laca*/
+.body-text1{
+    text-align: center;
+    margin-top: 3.5%;
+    margin-bottom: 1%;
+}
+
+/*css do titulo sobre a laca*/
+.text1 h1 {
+    color: #CA1F25;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+/*css do paragrafo do texto*/
+.text1 p{
+    padding: 0rem 10rem;
+    color:#2E3092;
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/*css pai dos textos missão visão e valores*/
+.body-text2{
+    font-family: 'montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+    text-align: justify;
+
+}
+
+/*css titulo*/
+.text2-1, .text2-2, .text2-3,  h2{
+    color:#CA1F25;
+    font-weight: normal;
+    width: 30%;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+/*css paragrafo*/
+.text2-1, .text2-2, .text2-3, p{
+    color:#2E3092;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.text-h1{
+    display: inline;
+    align-items: center;
+}
+
+.text-h1 h1{
+    text-align: center;
+    color: red;
+}
+/*pai da "Nossa estrutura"*/
+
+.nossa-estrutura{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:3%;
+    
+}
+
+.carreta-3{
+    display: flex;
+    align-items: center;
+    margin-left: -4%;
+}
+
+.carreta-3 img{
+    margin-top: 0%;
+    width: 875px;
+    height: 513px;
+    border-radius: 1.5rem;
+    
+}
+
+.carreta-4{
+    max-width: 50%;
+    max-height: 100%;
+
+    
+}
+
+.carreta-4 img{
+    width: 875px;
+    height:513px;
+    margin-left: 5%;
+    border-radius: 1.5rem;
+    margin-top: 0.5%;
+}
+/*Pai do "27 Conjuntos"*/
+
+.conjuntos{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-top: 1%;
+    color:#2E3092
+}
+/*Pai do "Tecnologia"*/
+.tecnologia{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 3.5rem;
+    align-content: space-between;
+    align-items: center;
+    margin-top:-1%;
+    
+}
+.tecnologia-text{
+color:#CA1F25;
+font-weight: normal;
+text-align: left;
+font-size: 17px;
+}
+.tecnologia-li{
+    color:#CA1F25;
+font-weight: normal;
+text-align:left;
+font-size: 27px;
+margin-left: 25%;
+max-width: 80%;
+width: 35%;
+margin-top: 2.5%;
+}
+
+.auto-track{
+    display:flex;
+    width: 100%;
+    max-width: 
+    height: 50%;
+    margin-left: 5%;   
+}
+
+.auto-track img{
+    width:80%;
+    padding: 2rem 6rem
+}
+.teclado{
+    display:flex;
+    width: 100%;
+    max-width: 30%;
+    height: 50%;
+    
+
+}
+.teclado img{
+width: 60%;
+height: 70%;
+padding: 2rem 4rem;
+margin-left: 5%;
+}
+
+/*texto do "Clientes"*/
+.clientes-text{
+    color:#CA1F25;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+
+}
+/*Pai do "Clientes"*/
+.clientes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 5rem;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 7rem;
+    max-width: 100%;
+    margin-left: -3rem;
+}
+
+.preformax{
+    padding: 0.1rem -3rem
+}
+.preformax img{
+    display: flex;
+    width:70%;
+    height: 50%;
+    padding:2rem 1rem
+}
+.maxvinil img{
+    display: flex;
+    width:70%;
+    height: 50%;
+}
+.globalmax img{
+    display: flex;
+    width:70%;
+    height: 50%;
+
+}
+.popai img{
+    display: flex;
+    width:70%;
+    height: 50%;
+}
+.rio-aquidaban img{
+    display: flex;
+    width:70%;
+    height: 50%;
+
+    
+}
+.importadora-exportadora img{
+    display: flex;
+    width:70%;
+    height: 50%;
+
+}
+/*Pai do "formulario"*/
+.formulario{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding:0rem 10rem;
+    margin-top: 12%;
+}
+
+.form{
+    display:inline-block;
+}
+
+.cadastro{
+    text-align: center;
+}
+
+.cadastro h1{
+    font-family: montserrat;
+    color:#CA1F25;
+}
+
+.cadastro p{
+    font-size:16px;
+    text-align: center;
+    margin-bottom:-3%;
+    margin-top: 3%;
+    color:#CA1F25;
+}
+
+.form{
+    display:inline-block;
+    margin-left: 18%;
+    margin-top: -7%;
+}
+
+.form input{
+    font-size:12px;
+    width:55%;
+}
+
+.form input, paceholder{
+    padding:3%;
+    margin:2%;
+}
+
+.form  textarea{
+    font-size:15px;
+    width: 55%;
+    height:10%;
+    padding:3%;
+}
+
+.btn button{
+    font-size:25px;
+    padding:2% 7%;
+    background-color:#CA1F25;
+    border-radius: 1.4rem;
+    color:white;
+    margin-top: 3%;
+}
+
+.mapa{
+    display: flex;
+}
+
+.mapa img{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: -26%;
+}
+
+.rdp{
+    text-align: center;
+    margin-top:10rem;
+    width:100%;
+    background-color:#CA1F25;
+    padding:1rem;
+}
+
+.rdp img{
+    width: 15%;
+    background-color:#CA1F25;
+}
+
+.rdp h3{
+    color:white;
+    background-color:#CA1F25;
+    margin-top: 1%;
+}
+
+.rdp a{
+    color: white;
+    background-color:#CA1F25;
+}
+
+.rdp h5{
+    color:white;
+    background-color:#CA1F25;
+}
+
+.rdp h6{
+    color:white;
+    background-color:#CA1F25;
+}
